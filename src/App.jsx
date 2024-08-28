@@ -4,7 +4,7 @@ import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 import Home from './Components/Home'
 import About from './Components/About'
 import Contact from './Components/Contact'
-import Product from './Components/Product'
+
 
 
 const App = () => {
@@ -14,7 +14,7 @@ const App = () => {
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/About' element={<About />} />
-      <Route path='/Contact/:id' element={<Product/>} />
+      <Route path='/Contact' element={<Contact/>} />
       <Route path='*' element={
         <div>Page not found 404</div>
       } />
