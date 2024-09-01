@@ -1,0 +1,11 @@
+*{
+          margin: 0;
+          padding: 0;
+
+}
+input{
+          padding: 1rem;
+          border: 1px solid rgba(196,196,196,0.6);
+          border-radius: 5px;
+          outline: none;
+}
